@@ -1,0 +1,197 @@
+*{
+    box-sizing: content-box;
+}
+
+body {
+  background-color: #010101df;
+  color: floralwhite;
+  z-index: 0;
+}
+
+.navbar-dark{
+  background-color: #512DA8;
+}
+
+.navbar .navbar-toggler i{
+  color: floralwhite;
+}
+
+.navbar .navbar-toggler{
+  color: floralwhite;
+  border: 1px solid floralwhite;
+}
+
+.modal-header{
+  background-color:#4a2492;
+}
+
+.modal-body{
+  background-color:#ecd4fc;
+}
+
+.header {
+  padding: 70px 30px 70px 30px;
+  background: black;
+  color: floralwhite;
+}
+
+.mine{
+    border-radius: 65px;
+    margin-top: 2em;
+}
+
+#hi{
+  margin-top: 2em;
+}
+
+h3{
+  margin-top: 2em;
+  font-style: italic;
+}
+
+h4{
+  margin-top: 4em;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.footer{
+  background-color: black;
+  margin-top: 1em;
+}
+
+.footer li a{
+  color: floralwhite;
+}
+
+h5{
+  margin-top: 1em;
+  color: blue;
+}
+
+address {
+color: floralwhite;
+}
+
+address a{
+color: floralwhite;
+}
+
+.cen a i{
+  color: floralwhite;
+}
+
+#first{
+  color: blue;
+  margin-right: 1em;
+  
+}
+
+#second{
+ color: white;
+ margin-right: 1em;
+}
+
+#third{
+  background-color: blue;
+  margin-right: 1em;
+  margin-top: 5px;
+}
+
+#fourth{
+  color: green;
+}
+
+#fifth{
+  color: yellow;
+  margin-right: 1em;
+  margin-top: 10px;
+}
+
+.pro{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 8px black;
+  background-color: black;
+  padding: 3px;
+  margin-top: 3em;
+}
+
+#pro{
+  margin-top: 6em;
+}
+
+.pro h4{
+  margin-top: 3px;
+  font-size: 19px;
+}
+
+#text{
+  color: grey;
+  font-size: 13px;
+}
+
+#word{
+  font-size: 13px;
+}
+
+#button{
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+
+.main{
+  background-color: #512DA8;
+  margin-bottom: 4em;
+  color: floralwhite;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.pro a i{
+  color: floralwhite;
+}
+
+.pro a{
+  color: floralwhite;
+}
+
+#Reserve a i{
+  color: floralwhite;
+}
+
+#Reserve a{
+  color: floralwhite;
+}
+
+#jet a i{
+  color: floralwhite;
+}
+
+#jet a{
+  color: floralwhite;
+}
+
+#let a i{
+  color: floralwhite;
+}
+
+#let a{
+  color: floralwhite;
+}
+
+.next{
+  color: grey;
+}
+
+.next a{
+  color: floralwhite;
+}
+
+.me a{
+  color: floralwhite;
+}
+
