@@ -1,8 +1,11 @@
 
 body {
   background-color: #010101df;
-  color: floralwhite;
   z-index: 0;
+}
+#Navbar a:hover{
+  font-size: 20px;
+  color: white;
 }
 
 .navbar-dark{
@@ -10,12 +13,12 @@ body {
 }
 
 .navbar .navbar-toggler i{
-  color: floralwhite;
+  color: white;
 }
 
 .navbar .navbar-toggler{
   color: floralwhite;
-  border: 1px solid floralwhite;
+  border: 1px solid white;
 }
 
 .modal-header{
@@ -29,7 +32,6 @@ body {
 .header {
   padding: 70px 30px 70px 30px;
   background: black;
-  color: floralwhite;
 }
 
 .mine{
@@ -37,17 +39,14 @@ body {
     margin-top: 2em;
 }
 
-#hi{
-  margin-top: 2em;
-}
+.hi{
 
-h3{
-  margin-top: 2em;
+  color: rgba(255, 355, 255, 0.80);
+}
+.hi span{
+  color: white;
+  text-align: left;
   font-style: italic;
-}
-
-h4{
-  margin-top: 4em;
 }
 
 html{
@@ -60,7 +59,12 @@ html{
 }
 
 .footer li a{
-  color: floralwhite;
+  color: white;
+  text-decoration: none;
+}
+.footer li a:hover{
+  font-size: 20px;
+  color: lightskyblue;
 }
 
 h5{
@@ -75,120 +79,165 @@ color: floralwhite;
 address a{
 color: floralwhite;
 }
-
-.cen a i{
-  color: floralwhite;
+.next{
+  text-align: center;
+  color: rgba(255, 355, 255, 0.80);
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.resume{
+  text-decoration: none;
+  background-color: rgb(252, 199, 24);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(255, 355, 255, 0.80);
+}
+.resume:hover{
+  background-color: #4a2492;
+  color: white;
+  text-decoration: none;
+}
+.Experience{
+  color: white;
+}
+.experience .skills{
+  color: rgba(255, 355, 255, 0.80);
+}
+.Experience p{
+  text-align: center;
+}
+.main{
+  background-color: rgb(48, 47, 47);
+}
+.skillset{
+  margin-left: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.skillset h3{
+  margin-bottom: 30px;
+}
+#jet{
+  text-decoration: none;
+  background-color: rgb(252, 199, 24);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(255, 355, 255, 0.80);
+  margin-left: 3em;
+}
+#jet:hover{
+  background-color: #4a2492;
+  color: white;
+  text-decoration: none;
+}
+#let{
+  text-decoration: none;
+  background-color: rgb(252, 199, 24);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(255, 355, 255, 0.80);
+  margin-left: 3em;
+}
+#let:hover{
+  background-color: #4a2492;
+  color: white;
+  text-decoration: none;
 }
 
-#first{
-  color: blue;
-  margin-right: 1em;
-  
+#about{
+  color: rgba(255, 355, 255, 0.80);
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
-
-#second{
- color: white;
- margin-right: 1em;
+.p05{
+  text-align: center;
+  color: white;
+  margin-bottom: 2em;
 }
-
-#third{
-  background-color: blue;
-  margin-right: 1em;
-  margin-top: 5px;
+label{
+  color: white;
 }
-
-#fourth{
-  color: green;
-}
-
-#fifth{
-  color: yellow;
-  margin-right: 1em;
-  margin-top: 10px;
-}
-
-.pro{
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px 8px black;
-  background-color: black;
-  padding: 3px;
+form{
   margin-top: 3em;
 }
-
+.me{
+  text-decoration: none;
+  background-color: rgb(252, 199, 24);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(255, 355, 255, 0.80);
+  margin-left: 6em;
+}
+.me:hover{
+  background-color: #4a2492;
+  color: white;
+  text-decoration: none
+}
+.col-auto p{
+  color: white;
+}
+.cen a{
+  color: white;
+}
+.cen a:hover{
+  color: blue;
+  background-color: rgba(255, 355, 255, 0.80);
+  border-radius: 50%;
+  padding: 7px 10px;
+}
+.pro{
+border-radius: 10px;
+box-shadow: 5px 5px 5px 8px black;
+background-color: black;
+padding: 3px;
+margin-top: 3em;
+}
 #pro{
   margin-top: 6em;
 }
-
 .pro h4{
   margin-top: 3px;
   font-size: 19px;
 }
-
 #text{
   color: grey;
   font-size: 13px;
 }
-
 #word{
   font-size: 13px;
 }
-
-#button{
-  margin-top: 3em;
-  margin-bottom: 4em;
-}
-
-.main{
-  background-color: #512DA8;
-  margin-bottom: 4em;
-  color: floralwhite;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px 5px black;
-}
-
-.pro a i{
-  color: floralwhite;
-}
-
 .pro a{
-  color: floralwhite;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
-
-#Reserve a i{
-  color: floralwhite;
+.code{
+  margin-left: 2em;
 }
-
-#Reserve a{
-  color: floralwhite;
+.mains{
+  text-decoration: none;
+  background-color: rgb(252, 199, 24);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(255, 355, 255, 0.80);
+  margin-left: 6em;
 }
-
-#jet a i{
-  color: floralwhite;
+.mains:hover{
+  background-color: #4a2492;
+  color: white;
+  text-decoration: none
 }
-
-#jet a{
-  color: floralwhite;
+.pros{
+  margin-bottom: 4em;
 }
-
-#let a i{
-  color: floralwhite;
-}
-
-#let a{
-  color: floralwhite;
-}
-
-.next{
-  color: grey;
-}
-
-.next a{
-  color: floralwhite;
-}
-
-.me a{
-  color: floralwhite;
-}
-
